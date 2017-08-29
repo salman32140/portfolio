@@ -38,6 +38,9 @@
     <meta name="msapplication-TileColor" content="#3372DF">
 
     <link rel="shortcut icon" href="images/favicon.png">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script type="text/javascript" src="res/js/goalProgress.min.js"></script>
+  
 
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
     <!--
@@ -47,6 +50,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.teal-pink.min.css">
+    <link rel="stylesheet" type="text/css" href="goalProgress.css" />
     <link rel="stylesheet" href="styles.css">
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
@@ -67,8 +71,8 @@
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
           <a href="#overview" class="mdl-layout__tab is-active">About Me</a>
-<!--           <a href="#features" class="mdl-layout__tab">Featured</a>
-          <a href="#features" class="mdl-layout__tab">Portfolio</a>
+           <a href="#projects" class="mdl-layout__tab">Project Gallery</a>
+<!--          <a href="#features" class="mdl-layout__tab">Portfolio</a>
           <a href="#features" class="mdl-layout__tab">Projects</a>
           <a href="#features" class="mdl-layout__tab">Contact</a> -->
         </div>
@@ -175,13 +179,109 @@
               <i class="material-icons">more_vert</i>
             </button>
             <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn2">
-              <li class="mdl-menu__item" onClick="window.location.href='download/Resume-Salman_Zafar.pdf'">Download PDF</li>
+              <li class="mdl-menu__item" onClick="window.location.href='res/resume.pdf'">Download Resume (PDF)</li>
             </ul>
           </section>
 
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col">Design &amp; Software Skills</h4>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                <h6>Programming Skills</h6>
+                <div class="mdl-layout--large-screen-only mdl-layout__header-row">
 
-          </section>  
+                  <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                   <div id="PHP"></div>
+                  </div>
+                  <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                   <div id="SQL"></div>
+                  </div>
+                  <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                   <div id="JS"></div>
+                  </div>
+                </div>
+                <div class="mdl-layout--small-screen-only mdl-layout__header-row">
+                  <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
+                   <div>PHP</div>
+                  </div>
+                  <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
+                   <div>SQL</div>
+                  </div>
+                  <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
+                   <div>JS</div>
+                  </div>
+                </div>    
+                </div>
+                  
+                  <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h6>Web Development Skills</h6>
+                  <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+
+                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                     <div id="html"></div>
+                    </div>
+                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                     <div id="css"></div>
+                    </div>
+                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                     <div id="bs"></div>
+                    </div>
+                  </div>
+                  <div class="mdl-layout--small-screen-only mdl-layout__header-row">
+                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
+                     <div>PHP</div>
+                    </div>
+                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
+                     <div>SQL</div>
+                    </div>
+                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
+                     <div>Bootstrap</div>
+                    </div>
+                  </div>    
+                  </div>
+
+                  <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h6>Software Skills</h6>
+                  <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+
+                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                     <div id="aps"></div>
+                    </div>
+                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                     <div id="gas"></div>
+                    </div>
+                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                     <div id="mvs"></div>
+                    </div>
+                  </div>
+                  <div class="mdl-layout--small-screen-only mdl-layout__header-row">
+                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
+                     <div>PHP</div>
+                    </div>
+                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
+                     <div>SQL</div>
+                    </div>
+                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
+                     <div>Bootstrap</div>
+                    </div>
+                  </div>    
+                  </div>
+                   
+              </div>
+              <div class="mdl-card__actions">
+                <a href="https://www.youtube.com/embed/Yx8t_B12wKo" class="mdl-button">Introductory video for Google Student Ambassador</a>
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn2">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn2">
+              <li class="mdl-menu__item" onClick="window.location.href='res/resume.pdf'">Download Resume (PDF)</li>
+            </ul>
+          </section>
+
+
          
 <!--           <section class="section--footer mdl-color--white mdl-grid">
             <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
@@ -200,35 +300,37 @@
             </div>
           </section> -->
         </div>
-        <!-- <div class="mdl-layout__tab-panel" id="features">
+        <div class="mdl-layout__tab-panel" id="projects">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Features</h4>
-              Minim duis incididunt est cillum est ex occaecat consectetur. Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
+              <h4>Software Development Projects</h4>
+              
               <ul class="toc">
-                <h4>Contents</h4>
-                <a href="#lorem1">Lorem ipsum</a>
-                <a href="#lorem2">Lorem ipsum</a>
-                <a href="#lorem3">Lorem ipsum</a>
-                <a href="#lorem4">Lorem ipsum</a>
-                <a href="#lorem5">Lorem ipsum</a>
+                <!-- <h4>Web Based Projects</h4> -->
+                <a href="#perf_man_sys">Performance Management System</a>
+                <a href="#lorem2">Enviromental Health and Safety</a>
+                <a href="#lorem3">Customer Complaints System</a>
+                <a href="#lorem4">BSP Republic (Intranet)</a>
+                <!-- <a href="#lorem5"></a> -->
               </ul>
 
-              <h5 id="lorem1">Lorem ipsum dolor sit amet</h5>
-              Excepteur et pariatur officia veniam anim culpa cupidatat consequat ad velit culpa est non.
+              <h5 id="perf_man_sys">Performance Management System</h5>
+              <p>The primary aim of Performance management system is to establish a framework for enabling the organization to accelerate results by building a high performance culture and establishing a system where transparency is ensured and corporate goals are aligned with the business unit, department performance objectives and individual KPIs.Improved shareholder value, greater profitability, increase revenue, inspired innovation – none of these can be realized without an organized process that deconstructs the corporate goals and cascades relevant and measurable elements of them through the workforce.We firmly believe that our people should be recognized and held accountable for their performance, leading to ownership and responsibility for continuous improvement of business processes and self-development under effective leadership.</p>
+
+              <p>Performance Management System is now a part of three group companies and the potential of this projects allows it to be implemented in other group companies as well. Currently following Packages group companies are using this product.</p>
               <ul>
-                <li>Nisi qui nisi duis commodo duis reprehenderit consequat velit aliquip.</li>
-                <li>Dolor consectetur incididunt in ipsum laborum non et irure pariatur excepteur anim occaecat officia sint.</li>
-                <li>Lorem labore proident officia excepteur do.</li>
+                <li>Bulleh Shah Packaging Ltd.</li>
+                <li>Packages Ltd.</li>
+                <li>DIC Ltd.</li>
               </ul>
-
-              <p>
-                Sit qui est voluptate proident minim cillum in aliquip cupidatat labore pariatur id tempor id. Proident occaecat occaecat sint mollit tempor duis dolor cillum anim. Dolore sunt ea mollit fugiat in aliqua consequat nostrud aliqua ut irure in dolore. Proident aliqua culpa sint sint exercitation. Non proident occaecat reprehenderit veniam et proident dolor id culpa ea tempor do dolor. Nulla adipisicing qui fugiat id dolor. Nostrud magna voluptate irure veniam veniam labore ipsum deserunt adipisicing laboris amet eu irure. Sunt dolore nisi velit sit id. Nostrud voluptate labore proident cupidatat enim amet Lorem officia magna excepteur occaecat eu qui. Exercitation culpa deserunt non et tempor et non.
-              </p>
-              <p>
-                Do dolor eiusmod eu mollit dolore nostrud deserunt cillum irure esse sint irure fugiat exercitation. Magna sit voluptate id in tempor elit veniam enim cupidatat ea labore elit. Aliqua pariatur eu nulla labore magna dolore mollit occaecat sint commodo culpa. Eu non minim duis pariatur Lorem quis exercitation. Sunt qui ex incididunt sit anim incididunt sit elit ad officia id.
-              </p>
-              <p id="lorem2">
+              <h6><strong>Role</strong></h6>
+              <p> Working as the developer of the Performance Management System , Bulleh Shah Packaging Ltd. allowed me to work as the full stack developer responsible of Database Management, Front-End and Back-End Developer. PMS took 2 years to become a mature product and now it entertains more than 2000 employees of different grades from packages group companies to carry out their yearly performance evaluations and rate their direct appraises. Technologies used for this project are : </p>
+              <ol>
+                <li>MySql Database</li>
+                <li>PHP (Core)</li>
+                <li>Jquery</li>
+              </ol>
+              <p id="lorem2"><h5>Environmental Health and Safety</h5>
                 Tempor voluptate ex consequat fugiat aliqua. Do sit et reprehenderit culpa deserunt culpa. Excepteur quis minim mollit irure nulla excepteur enim quis in laborum. Aliqua elit voluptate ad deserunt nulla reprehenderit adipisicing sint. Est in eiusmod exercitation esse commodo. Ea reprehenderit exercitation veniam adipisicing minim nostrud. Veniam dolore ex ea occaecat non enim minim id ut aliqua adipisicing ad. Occaecat excepteur aliqua tempor cupidatat aute dolore deserunt ipsum qui incididunt aliqua occaecat sit quis. Culpa sint aliqua aliqua reprehenderit veniam irure fugiat ea ad.
               </p>
               <p>
@@ -254,7 +356,7 @@
               </p>
             </div>
           </section>
-        </div> -->
+        </div>
         <footer class="mdl-mega-footer">
           <!-- <div class="mdl-mega-footer--middle-section">
             <div class="mdl-mega-footer--drop-down-section">
@@ -313,3 +415,61 @@
     <script src="https://code.getmdl.io/1.2.0/material.min.js"></script>
   </body>
 </html>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#PHP').goalProgress({
+        goalAmount: 100,
+        currentAmount: 60,
+        textBefore: 'PHP',
+        textAfter: ''
+      });
+      $('#SQL').goalProgress({
+        goalAmount: 100,
+        currentAmount: 60,
+        textBefore: 'MySQL',
+        textAfter: ''
+      });
+      $('#JS').goalProgress({
+        goalAmount: 100,
+        currentAmount: 60,
+        textBefore: 'Javascript',
+        textAfter: ''
+      });
+      $('#html').goalProgress({
+        goalAmount: 100,
+        currentAmount: 90,
+        textBefore: 'HTML 5',
+        textAfter: ''
+      });
+      $('#css').goalProgress({
+        goalAmount: 100,
+        currentAmount: 70,
+        textBefore: 'CSS',
+        textAfter: ''
+      });
+      $('#bs').goalProgress({
+        goalAmount: 100,
+        currentAmount: 70,
+        textBefore: 'Bootstrap',
+        textAfter: ''
+      });
+      $('#aps').goalProgress({
+        goalAmount: 100,
+        currentAmount: 87,
+        textBefore: 'Adobe Photoshop',
+        textAfter: ''
+      });
+      $('#gas').goalProgress({
+        goalAmount: 100,
+        currentAmount: 70,
+        textBefore: 'Android Studio',
+        textAfter: ''
+      });
+      $('#mvs').goalProgress({
+        goalAmount: 100,
+        currentAmount: 70,
+        textBefore: 'Visual Studio',
+        textAfter: ''
+      });
+    });
+  </script>
