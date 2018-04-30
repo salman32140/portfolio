@@ -44,9 +44,9 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.teal-pink.min.css">
+    <link rel="stylesheet" href="res/css/fonts.css">
+    <link rel="stylesheet" href="res/css/fonts-api.css">
+    <link rel="stylesheet" href="res/css/material.teal-pink.min.css">
     <link rel="stylesheet" type="text/css" href="goalProgress.css" />
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -68,7 +68,7 @@
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
           <a href="#overview" class="mdl-layout__tab is-active">About Me</a>
-           <a href="#projects" class="mdl-layout__tab">Project Gallery</a>
+           <a href="#projects" class="mdl-layout__tab">Software Projects Gallery</a>
           <a href="#photos" class="mdl-layout__tab">Project Photos</a>
           <a href="#events" class="mdl-layout__tab">Events Gallery</a>
           <!-- <a href="#features" class="mdl-layout__tab">Contact</a>  -->
@@ -108,14 +108,24 @@
               <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
                 <h4 class="mdl-cell mdl-cell--12-col">Education &amp; Qualifications</h4>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                  <div class="section__circle-container__circle" style="overflow:hidden">
+                  <div class="section__circle-container__circle">
+                    <img src="res/ucp.jpg">
+                  </div>
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><font><strong>M.Phil Computer Science</strong></font></h5>
+                  University of Central Punjab, Lahore<br>
+                  <i> Fall 2018 - Present</i>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle">
                     <img src="res/idp.png">
                   </div>
                 </div>
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                   <h5><font style="color:#e11634;"><strong>IELTS</strong></font></h5>
                   Total Bands Earned : 6.5/9<br>
-                  <i> Year 2016</i>
+                  <i> Year 2016 - 2018</i>
                 </div>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--white">
@@ -183,103 +193,6 @@
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
               <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                <h4 class="mdl-cell mdl-cell--12-col">Design &amp; Software Skills</h4>
-                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                <h6>Programming Skills</h6>
-                <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-
-                  <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
-                   <div id="PHP"></div>
-                  </div>
-                  <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
-                   <div id="SQL"></div>
-                  </div>
-                  <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
-                   <div id="JS"></div>
-                  </div>
-                </div>
-                <div class="mdl-layout--small-screen-only mdl-layout__header-row">
-                  <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
-                   <div>PHP</div>
-                  </div>
-                  <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
-                   <div>SQL</div>
-                  </div>
-                  <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
-                   <div>JS</div>
-                  </div>
-                </div>    
-                </div>
-                  
-                  <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h6>Web Development Skills</h6>
-                  <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-
-                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
-                     <div id="html"></div>
-                    </div>
-                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
-                     <div id="css"></div>
-                    </div>
-                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
-                     <div id="bs"></div>
-                    </div>
-                  </div>
-                  <div class="mdl-layout--small-screen-only mdl-layout__header-row">
-                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
-                     <div>PHP</div>
-                    </div>
-                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
-                     <div>SQL</div>
-                    </div>
-                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
-                     <div>Bootstrap</div>
-                    </div>
-                  </div>    
-                  </div>
-
-                  <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h6>Software Skills</h6>
-                  <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-
-                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
-                     <div id="aps"></div>
-                    </div>
-                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
-                     <div id="gas"></div>
-                    </div>
-                    <div class="section__text mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
-                     <div id="mvs"></div>
-                    </div>
-                  </div>
-                  <div class="mdl-layout--small-screen-only mdl-layout__header-row">
-                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
-                     <div>PHP</div>
-                    </div>
-                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
-                     <div>SQL</div>
-                    </div>
-                    <div class="section__text mdl-cell mdl-cell--1-col-desktop mdl-cell--1-col-tablet mdl-cell--1-col-phone">
-                     <div>Bootstrap</div>
-                    </div>
-                  </div>    
-                  </div>
-                   
-              </div>
-              <div class="mdl-card__actions">
-                <a href="https://www.youtube.com/embed/Yx8t_B12wKo" class="mdl-button">Introductory video for Google Student Ambassador</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn2">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn2">
-              <li class="mdl-menu__item" onClick="window.location.href='res/resume.pdf'">Download Resume (PDF)</li>
-            </ul>
-          </section>
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
                 <h4 class="mdl-cell mdl-cell--12-col">Trainings</h4>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--white">
@@ -332,16 +245,6 @@
                   <i>By: Activ8</i>
                 </div>
               </div>
-              <div class="mdl-card__actions">
-                <a href="https://www.youtube.com/embed/Yx8t_B12wKo" class="mdl-button">Introductory video for Google Student Ambassador</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn2">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn2">
-              <li class="mdl-menu__item" onClick="window.location.href='res/resume.pdf'">Download Resume (PDF)</li>
-            </ul>
           </section>
 
 
@@ -371,26 +274,30 @@
               <ul class="toc">
                 <!-- <h4>Web Based Projects</h4> -->
                 <a href="#perf_man_sys">Performance Management System</a>
-                <a href="#lorem2">Enviromental Health and Safety</a>
-                <a href="#lorem3">Customer Complaints System</a>
-                <a href="#lorem4">BSP Republic (Intranet)</a>
+                <a href="#ehs">Enviromental Health and Safety</a>
+                <a href="#yclaim">Travel Booking and Claims (SAP Application)</a>
+                <a href="#ccms">Customer Complaints System</a>
+                <a href="#bsprepublic">BSP Republic (Intranet)</a>
+                <a href="#icub">Automation and Expression Achievement of iCub</a>
                 <!-- <a href="#lorem5"></a> -->
               </ul>
+          </div>
+      </section>
               <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
                 <div class="mdl-card mdl-cell mdl-cell--12-col">
                   <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                    <h5 id="perf_man_sys">Performance Management System</h5>
+                    <h5 id="perf_man_sys">People Performance Process</h5>
 
-                    <p> Working as the developer of the Performance Management System , Bulleh Shah Packaging Ltd. allowed me to work as the full stack developer responsible of Database Management, Front-End and Back-End Developer. PMS took 2 years to become a mature product and now it entertains more than 2000 employees of different grades from packages group companies to carry out their yearly performance evaluations and rate their direct appraises. Technologies used for this project are : </p>
+                    <p> Working as the developer of the Performance Management System , Bulleh Shah Packaging Ltd. allowed me to work as the full stack developer responsible of Database Management, Front-End and Back-End Developer. PMS took 2 years to become a mature product and it was released organization wide ; for 5 companies; entertaining more than 2000 employees of different grades from packages group companies to carry out their yearly performance evaluations and rate their direct appraises. Technologies used for this project are : </p>
                     <ol>
                       <li>MySql Database</li>
                       <li>PHP (Core)</li>
                       <li>Jquery</li>
                     </ol>
 
-                    <p>The primary aim of Performance management system is to establish a framework for enabling the organization to accelerate results by building a high performance culture and establishing a system where transparency is ensured and corporate goals are aligned with the business unit, department performance objectives and individual KPIs.Improved shareholder value, greater profitability, increase revenue, inspired innovation – none of these can be realized without an organized process that deconstructs the corporate goals and cascades relevant and measurable elements of them through the workforce.We firmly believe that our people should be recognized and held accountable for their performance, leading to ownership and responsibility for continuous improvement of business processes and self-development under effective leadership.</p>
+                    <p>The primary aim of People Performance Process is to establish a framework for enabling the organization to accelerate results by building a high performance culture and establishing a system where transparency is ensured and corporate goals are aligned with the business unit, department performance objectives and individual KPIs.Improved shareholder value, greater profitability, increase revenue, inspired innovation – none of these can be realized without an organized process that deconstructs the corporate goals and cascades relevant and measurable elements of them through the workforce.</p>
 
-                    <p>Performance Management System is now a part of three group companies and the potential of this projects allows it to be implemented in other group companies as well. Currently following Packages group companies are using this product.</p>
+                    <p>Performance Management System is now a part of five group companies and the potential of this projects allows it to be implemented in other group companies as well. Currently following Packages group companies are using this product.</p>
                     <ul>
                       <li>Bulleh Shah Packaging Ltd.</li>
                       <li>Packages Ltd.</li>
@@ -402,38 +309,135 @@
                     <div class="mdl-layout--large-screen-only">
                      <img src="res/pms/obj_set.png">
                      <br><br>
+                     <img src="res/pms/dashboard.png">
+                     <br><br>
                      <img src="res/pms/calibration.png">
                     </div> 
                   </div>
+                  <div class="mdl-card__actions">
+                <a href="http://202.163.126.20/ppp" class="mdl-button">Visit People Performance Process System</a>
+              </div>
                 </div>
               </section>    
+ 			
+ 			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+ 				<div class="mdl-card mdl-cell mdl-cell--12-col">
+ 					<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+		              <p id="ehs"><h5>Environmental Health and Safety</h5>
+			                This intranet base web application was responsible for generating reports and maintaining records of all the incidents; including accidents, LTAs, Near misses and other safety related information.
+			                This application was linked to the Performance Management System, which would calculate the safety KPI programatically on the basis of statsitics generated by this application. <br>
+			                Main Features of this applications included : <br>
+			                <ul>
+			                	<li>Incident Reporting</li>
+			                	<li>Tracking of incidents</li>
+			                	<li>Sending notifications to the responsible person about an accident</li>
+			                	<li>Generation of Safety related reports</li>
+			                	<li>Automatic Rating of Safety Related KPI of every individual </li>
+		                	</ul>  
+		              </p>
+		              <div class="mdl-layout--large-screen-only">
+			               <img src="res/ehs/dashboard.jpg">
+			               <br><br>
+		              </div> 
+			        </div>
+           		</div>
+            </section>
 
-              <p id="lorem2"><h5>Environmental Health and Safety</h5>
-                Tempor voluptate ex consequat fugiat aliqua. Do sit et reprehenderit culpa deserunt culpa. Excepteur quis minim mollit irure nulla excepteur enim quis in laborum. Aliqua elit voluptate ad deserunt nulla reprehenderit adipisicing sint. Est in eiusmod exercitation esse commodo. Ea reprehenderit exercitation veniam adipisicing minim nostrud. Veniam dolore ex ea occaecat non enim minim id ut aliqua adipisicing ad. Occaecat excepteur aliqua tempor cupidatat aute dolore deserunt ipsum qui incididunt aliqua occaecat sit quis. Culpa sint aliqua aliqua reprehenderit veniam irure fugiat ea ad.
-              </p>
-              <p>
-                Eu minim fugiat laborum irure veniam Lorem aliqua enim. Aliqua veniam incididunt consequat irure consequat tempor do nisi deserunt. Elit dolore ad quis consectetur sint laborum anim magna do nostrud amet. Ea nulla sit consequat quis qui irure dolor. Sint deserunt excepteur consectetur magna irure. Dolor tempor exercitation dolore pariatur incididunt ut laboris fugiat ipsum sunt veniam aute sunt labore. Non dolore sit nostrud eu ad excepteur cillum eu ex Lorem duis.
-              </p>
-              <p>
-                Id occaecat velit non ipsum occaecat aliqua quis ut. Eiusmod est magna non esse est ex incididunt aute ullamco. Cillum excepteur sint ipsum qui quis velit incididunt amet. Qui deserunt anim enim laborum cillum reprehenderit duis mollit amet ad officia enim. Minim sint et quis aliqua aliqua do minim officia dolor deserunt ipsum laboris. Nulla nisi voluptate consectetur est voluptate et amet. Occaecat ut quis adipisicing ad enim. Magna est magna sit duis proident veniam reprehenderit fugiat reprehenderit enim velit ex. Ullamco laboris culpa irure aliquip ad Lorem consequat veniam ad ipsum eu. Ipsum culpa dolore sunt officia laborum quis.
-              </p>
+ 			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+ 				<div class="mdl-card mdl-cell mdl-cell--12-col">
+ 					<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+		              <p id="yclaim"><h5>Travel Booking and Claims</h5>
 
-              <h5 id="lorem3">Lorem ipsum dolor sit amet</h5>
-
-              <p id="lorem4">
-                Eiusmod nulla aliquip ipsum reprehenderit nostrud non excepteur mollit amet esse est est dolor. Dolore quis pariatur sit consectetur veniam esse ullamco duis Lorem qui enim ut veniam. Officia deserunt minim duis laborum dolor in velit pariatur commodo ullamco eu. Aute adipisicing ad duis labore laboris do mollit dolor cillum sunt aliqua ullamco. Esse tempor quis cillum consequat reprehenderit. Adipisicing proident anim eu sint elit aliqua anim dolore cupidatat fugiat aliquip qui.
-              </p>
-              <p id="lorem5">
-                Nisi eiusmod esse cupidatat excepteur exercitation ipsum reprehenderit nostrud deserunt aliqua ullamco. Anim est irure commodo eiusmod pariatur officia. Est dolor ipsum excepteur magna aliqua ad veniam irure qui occaecat eiusmod aute fugiat commodo. Quis mollit incididunt amet sit minim velit eu fugiat voluptate excepteur. Sit minim id pariatur ex cupidatat cupidatat nostrud nostrud ipsum.
-              </p>
-              <p>
-                Enim ea officia excepteur ad veniam id reprehenderit eiusmod esse mollit consequat. Esse non aute ullamco Lorem aliqua qui dolore irure eiusmod aute aliqua proident labore aliqua. Ipsum voluptate voluptate exercitation laborum deserunt nulla elit aliquip et minim ex veniam. Duis cupidatat aute sunt officia mollit dolor ad elit ad aute labore nostrud duis pariatur. In est sint voluptate consectetur velit ea non labore. Ut duis ea aliqua consequat nulla laboris fugiat aute id culpa proident. Minim eiusmod laboris enim Lorem nisi excepteur mollit voluptate enim labore reprehenderit officia mollit.
-              </p>
-              <p>
-                Cupidatat labore nisi ut sunt voluptate quis sunt qui ad Lorem esse nisi. Ex esse velit ullamco incididunt occaecat dolore veniam tempor minim adipisicing amet. Consequat in exercitation est elit anim consequat cillum sint labore cillum. Aliquip mollit laboris ad labore anim.
-              </p>
-            </div>
-          </section>
+		              		This SAP based application was designed using ABAP technology. This application is responsible to record travel and tours which enabled employees to book a travel order prior going on a trip.
+		              		Standaized TA/TO workflow is incorporated in this application as per company policy.<br>
+			                
+			                This application benefits are:<br>
+			                <ul>
+			                	<li>Paperless processing of travel requests</li>
+			                	<li>Online accessibility of travel co-ordinators</li>
+			                	<li>End-to-end tracking of company wide travels</li>
+			                	<li>Ease for Finance department for document posting in ERP</li>
+		                	</ul>  
+		              </p>
+		              <div class="mdl-layout--large-screen-only">
+			               <img src="res/yclaim/app.png">
+			               <br><br>
+			               <img src="res/yclaim/ta.png">
+		              </div> 
+			        </div>
+           		</div>
+            </section>
+            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+              <div class="mdl-card mdl-cell mdl-cell--12-col">
+                <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                        <p id="ccms">
+                          <h5>Customer Complaints System </h5>
+                           This PHP based web application provides external customers to launch complaints againts the defects in their received order.
+                           It also helps to lauch complaints from inside the organisation e.g. QA department, Sales departent etc. It has helped production team at packages to upgrade their 
+                           product quality keeping the customer needs in mind. It also provides an overall picture of damaged goods to the management team so that they can take necessary decisions.
+                           <br><br><br>  
+                        </p>
+                        <div class="mdl-layout--large-screen-only">
+                           <img src="res/ccms/app.png">
+                           <br><br>
+                           <img src="res/ccms/app_2.png">
+                           <br><br>
+                        </div> 
+                    </div>
+                    </div>
+              </section>
+              <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                <div class="mdl-card mdl-cell mdl-cell--12-col">
+                  <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                          <p id="bsprepublic">
+                            <h5>BSP Republic </h5><h6> (Intranet)</h6>
+                            This is a centralized integrated application which have many independent applications that are widley used by employees. Some of these applications include 
+                            <ul>
+                              <li>Sustainability / Global Resposibility</li>
+                              <li>Internal & External Trainings Portal</li>
+                              <li>Supplier and Customer Master Data Management</li>
+                              <li>Availability of HR Policy as per Employee entitlements</li>
+                              <li>E-Library for R&D</li>
+                              <li>HR Services and FAQ Portal</li>
+                              <li>Event Galleries , Calendars</li>
+                              <li>Company Pool Car booking System</li>
+                              <li>Meal Request module for guests</li>
+                            </ul>
+                             <br><br><br>  
+                          </p>
+                          <div class="mdl-layout--large-screen-only">
+                             <img src="res/bsp_republic/app.png">
+                             <br><br>
+                             <img src="res/bsp_republic/app_2.png">
+                             <br><br>
+                             <img src="res/bsp_republic/app_3.png">
+                             <br><br>
+                          </div> 
+                      </div>
+                      </div>
+                </section>
+            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+              <div class="mdl-card mdl-cell mdl-cell--12-col">
+                <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                        <p id="icub">
+                          <h5>Automation and Expression Achievement of iCub </h5><h6> (Final Year Project)</h6>
+                           The goal of this project was to study cognition through the implementation of a humanoid robot the size of a 3.5 year old child: the iCub.<br><br> 
+                           The project “Automation and Expression Achievement of iCub” is using an iCub simulator on which various image processing techniques have been applied.
+                           Through that we were capable of capturing an image through the lens of the iCub robot, process that image and stimulate different expressions upon detection
+                           of certain objects. The project is implemented on an open source platform. This final year project included the testing and implementation of image processing
+                           techniques and getting a reaction from the iCub on the certain inputs via emotion interface. <br><br><br>  
+                        </p>
+                        <div class="mdl-layout--large-screen-only">
+                           <img src="res/icub/icub_1.jpg">
+                           <br><br>
+                           <img src="res/icub/icub_2.jpg">
+                           <br><br>
+                           <img src="res/icub/icub_3.jpg">
+                           <br><br>
+                        </div> 
+                  </div>
+              </div>
+            </section>
         </div>
 
         <div class="mdl-layout__tab-panel" id="photos">
